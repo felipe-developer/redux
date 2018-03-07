@@ -1,0 +1,2 @@
+### Observations ###
+* npm start
