@@ -1,3 +1,8 @@
-'use strict';
+import './style.css'
+import React from 'react'
 
-console.log('Run forest!');
+export default props => (
+	<h1>Oi</h1>
+)
+
+console.log('Run')
