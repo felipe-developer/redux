@@ -5,4 +5,4 @@ export default props => (
 	<h1>Oi</h1>
 )
 
-console.log('Funcionando!')
+console.log('Run forest!')
