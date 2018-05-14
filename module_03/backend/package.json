@@ -1,22 +1,22 @@
 {
-  "name": "module_03",
-  "version": "1.0.0",
-  "description": "* TodoApp - Back/fron-end",
-  "main": "src/loader.js",
-  "scripts": {
-    "dev": "nodemon",
-    "production": "pm2 start src/loader.js --name todo-app"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "bluebird": "^3.5.1",
-    "body-parser": "^1.18.2",
-    "express": "^4.16.3",
-    "mongoose": "^5.0.16",
-    "node-restful": "^0.2.6",
-    "nodemon": "^1.17.3",
-    "pm2": "^2.10.2"
-  }
+    "name": "module_03",
+    "version": "1.0.0",
+    "description": "* TodoApp - Back/fron-end",
+    "main": "src/loader.js",
+    "scripts": {
+        "dev": "nodemon",
+        "production": "pm2 start src/loader.js --name todo-app"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "bluebird": "^3.5.1",
+        "body-parser": "^1.18.2",
+        "express": "^4.16.3",
+        "mongoose": "^5.0.16",
+        "node-restful": "^0.2.6",
+        "nodemon": "^1.17.3",
+        "pm2": "^2.10.3"
+    }
 }
