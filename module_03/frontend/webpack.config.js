@@ -7,13 +7,16 @@ module.exports = {
         path: __dirname + '/public',
         filename: './app.js'
     },
+    mode: "development",
     devServer: {
         port: 8080,
         contentBase: './public'
     },
+    /*performance: {
+        hints: false
+    },*/
     resolve: {
         extensions: ['*', '.js', '.jsx'],
-        // modulesDirectories: ['node_modules', 'src'], extension: ['', '.js', '.jsx'],
         alias: {
             modules: __dirname + '/node_modules'
         }
